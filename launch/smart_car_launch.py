@@ -34,7 +34,7 @@ def generate_launch_description():
             executable='dk_control',
             name='dk_control',
             remappings=[
-                ('/dk_control/cmd_vel', '/cmd_vel')
+                ('/dkcar/control/cmd_vel', '/cmd_vel')
             ]
         )
     ])
